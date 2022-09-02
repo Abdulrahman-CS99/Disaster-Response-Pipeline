@@ -6,7 +6,7 @@ Data Scientist Nanodegree Project
 
 1. [Installation](#Installation)
 2. [Instruction to run code](#Instruction-to-run-code)
-3. [# Project description](## Project-description)
+3. [Project description](#Project-description)
 
 
 
