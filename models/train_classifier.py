@@ -114,8 +114,8 @@ def evaluate_model(model, X_test, Y_test, category_names):
     """
     y_pred=model.predict(X_test)
     result=precision_recall_fscore_support(Y_test, y_pred)
-     for i, col in enumerate(Y_test.columns.values):
-            accu=accuracy_score(Y_test.loc[:,col],y_pred[:,i])
+    for i, col in enumerate(Y_test.columns.values):
+        accu=accuracy_score(Y_test.loc[:,col],y_pred[:,i])
         score = ('{}\n Accuracy:  {:.4f}   % Precision: {:.4f}   % Recall {:.4f} '.format(
                   col,accu,result[0][i],result[1][i]))
         print(score)
