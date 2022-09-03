@@ -28,7 +28,7 @@ Data Scientist Nanodegree Project
 
  Run the following commands to set up the  database and model.
 - "python data/process_data.py" for ETL pipeline
-- "models/train_classifier.py" for ML pipeline.
+- "python models/train_classifier.py" for ML pipeline.
 
 Finally you can run the web app by the following command: "python app/run.py"
 
