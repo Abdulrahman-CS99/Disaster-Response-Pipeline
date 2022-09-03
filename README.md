@@ -27,8 +27,8 @@ Data Scientist Nanodegree Project
 ## Instruction to run code
 
  Run the following commands to set up the  database and model.
-- "python data/process_data.py" for ETL pipeline
-- "python models/train_classifier.py" for ML pipeline.
+- "python data/process_data.py, disaster_messages.csv,disaster_categories.csv,DisasterResponse.db" for ETL pipeline
+- "python models/train_classifier.py, DisasterResponse.db,classifier.pkl" for ML pipeline.
 
 Finally you can run the web app by the following command: "python app/run.py"
 
